@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    justify-content: space-between;
+
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.btnEdit {
+    padding: 10px 20px;
+    background:orange;
+    color: #fff;
+
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btnDelete {
+    padding: 10px 20px;
+    background:red;
+    color: #fff;
+
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
