@@ -51,7 +51,7 @@ public class ItemRepositoryTest {
         String name = "Thailand massage";
 
         TransactionStatus transaction = transactionManager.getTransaction(definition);
-
+        //comment
         Collection<ServiceItem> results = repo.findByName(name);
 
         assertTrue("Should find at least one item in findByName(name)", results.size()>0);
